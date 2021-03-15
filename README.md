@@ -1,5 +1,5 @@
 # uav-simulation
 
-Bu simülasyon ortamı, İnsansız Hava Araçları (İHA) ile uydu görüntülerinden araçların tespiti ve takibi içindir. Ayrıca bu, 'uydudan araç-algılama' repo'sunun simülasyon ortamıdır.
+This simulation environment is for detecting and tracking vehicles from satellite images with Unmanned Aerial Vehicles (UAV) Also this is simulation environment of  "vehicle-detection-from-satellite" repo.
 
 ![#1](https://github.com/AlperenCicek/uav-simulation/blob/main/SimulationScreenShot1.PNG)
