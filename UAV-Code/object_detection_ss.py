@@ -14,13 +14,13 @@ for gpu in gpus:
     tf.config.experimental.set_memory_growth(gpu, True)
 
 # Load pipeline config and build a detection model
-configs = config_util.get_configs_from_pipeline_file("exported-models/my_model_faster_rcnn_resnet50_v1_640x640_RHF_RVF_4batches_20k/pipeline.config")
+configs = config_util.get_configs_from_pipeline_file("exported-models/my_model_faster_rcnn_resnet50_v1_640x640_Unfinished6ClassedDataset_RHF_RVF_4batches_8k/pipeline.config")
 model_config = configs['model']
 detection_model = model_builder.build(model_config=model_config, is_training=False)
 
 # Restore checkpoint
 ckpt = tf.compat.v2.train.Checkpoint(model=detection_model)
-ckpt.restore(os.path.join("exported-models/my_model_faster_rcnn_resnet50_v1_640x640_RHF_RVF_4batches_20k/checkpoint", 'ckpt-0')).expect_partial()
+ckpt.restore(os.path.join("exported-models/my_model_faster_rcnn_resnet50_v1_640x640_Unfinished6ClassedDataset_RHF_RVF_4batches_8k/checkpoint", 'ckpt-0')).expect_partial()
 
 @tf.function
 def detect_fn(image):
@@ -82,6 +82,9 @@ def click_coordinates():
                 print("**Positions set: ", pos)
                 return pos
 
+def conversionOfCoordinates(coord, w, h):
+    return  int(coord[0] * h), int(coord[1] * w), int(coord[2] * h), int(coord[3] * w)
+
 def set_pos():
     print("Set the area to process")
     print("Upper corner")
@@ -126,7 +129,7 @@ while True:
     label_id_offset = 1
     image_np_with_detections = image_np.copy()
 
-    coordinates = viz_utils.visualize_boxes_and_labels_on_image_array(
+    img, coordinates, classOfVehicles = viz_utils.visualize_boxes_and_labels_on_image_array(
           image_np_with_detections,
           detections['detection_boxes'][0].numpy(),
           (detections['detection_classes'][0].numpy() + label_id_offset).astype(int),
@@ -136,10 +139,14 @@ while True:
           max_boxes_to_draw=200,
           min_score_thresh=.30,
           agnostic_mode=False)
-    print("coordinates", coordinates)
-    
+    try:
+        print("---CLASS & COORDINATES OF FRAME---")
+        for i in range(0, len(classOfVehicles)):
+            print(classOfVehicles[i], " : ", conversionOfCoordinates(coordinates[i], w, h))
+    except:
+        print(".....")
     # Display output
-    cv2.imshow('object detection', cv2.resize(image_np_with_detections, (800, 600)))
+    cv2.imshow('object detection', cv2.cvtColor(image_np_with_detections, cv2.COLOR_BGR2RGB))
 
     if cv2.waitKey(25) & 0xFF == ord('q'):
         break
