@@ -14,13 +14,13 @@ for gpu in gpus:
     tf.config.experimental.set_memory_growth(gpu, True)
 
 # Load pipeline config and build a detection model
-configs = config_util.get_configs_from_pipeline_file("exported-models/my_model_faster_rcnn_resnet50_v1_640x640_Unfinished6ClassedDataset_RHF_RVF_4batches_8k/pipeline.config")
+configs = config_util.get_configs_from_pipeline_file("exported-models/my_model_faster_rcnn_resnet50_v1_640x640_Unfinished6ClassedDataset106_RHF_RVF_4batches_13k/pipeline.config")
 model_config = configs['model']
 detection_model = model_builder.build(model_config=model_config, is_training=False)
 
 # Restore checkpoint
 ckpt = tf.compat.v2.train.Checkpoint(model=detection_model)
-ckpt.restore(os.path.join("exported-models/my_model_faster_rcnn_resnet50_v1_640x640_Unfinished6ClassedDataset_RHF_RVF_4batches_8k/checkpoint", 'ckpt-0')).expect_partial()
+ckpt.restore(os.path.join("exported-models/my_model_faster_rcnn_resnet50_v1_640x640_Unfinished6ClassedDataset106_RHF_RVF_4batches_13k/checkpoint", 'ckpt-0')).expect_partial()
 
 @tf.function
 def detect_fn(image):
@@ -128,7 +128,7 @@ while True:
 
     label_id_offset = 1
     image_np_with_detections = image_np.copy()
-
+    image_np_with_detections = cv2.cvtColor(image_np_with_detections, cv2.COLOR_BGR2RGB)
     img, coordinates, classOfVehicles = viz_utils.visualize_boxes_and_labels_on_image_array(
           image_np_with_detections,
           detections['detection_boxes'][0].numpy(),
@@ -136,7 +136,7 @@ while True:
           detections['detection_scores'][0].numpy(),
           category_index,
           use_normalized_coordinates=True,
-          max_boxes_to_draw=200,
+          max_boxes_to_draw=500,
           min_score_thresh=.30,
           agnostic_mode=False)
     try:
@@ -146,7 +146,7 @@ while True:
     except:
         print(".....")
     # Display output
-    cv2.imshow('object detection', cv2.cvtColor(image_np_with_detections, cv2.COLOR_BGR2RGB))
+    cv2.imshow('object detection', image_np_with_detections)
 
     if cv2.waitKey(25) & 0xFF == ord('q'):
         break
