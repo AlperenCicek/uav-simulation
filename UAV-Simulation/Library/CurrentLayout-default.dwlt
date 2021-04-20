@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 333, y: 271}
   m_MaxSize: {x: 14003, y: 10021}
   vertical: 0
-  controlID: 122
+  controlID: 87
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -125,7 +125,7 @@ MonoBehaviour:
   m_MinSize: {x: 276, y: 292}
   m_MaxSize: {x: 4001, y: 8042}
   vertical: 1
-  controlID: 76
+  controlID: 119
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -250,7 +250,7 @@ MonoBehaviour:
   m_MinSize: {x: 609, y: 492}
   m_MaxSize: {x: 18004, y: 14042}
   vertical: 0
-  controlID: 75
+  controlID: 136
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -275,7 +275,7 @@ MonoBehaviour:
   m_MinSize: {x: 333, y: 492}
   m_MaxSize: {x: 14003, y: 14042}
   vertical: 1
-  controlID: 121
+  controlID: 137
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -385,7 +385,7 @@ MonoBehaviour:
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
     m_HSlider: 0
-    m_VSlider: 0
+    m_VSlider: 1
     m_IgnoreScrollWheelUntilClicked: 0
     m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
@@ -398,7 +398,7 @@ MonoBehaviour:
       y: 21
       width: 752
       height: 628
-    m_Scale: {x: 0.98125, y: 0.98125}
+    m_Scale: {x: 1, y: 1}
     m_Translation: {x: 376, y: 314}
     m_MarginLeft: 0
     m_MarginRight: 0
@@ -406,12 +406,12 @@ MonoBehaviour:
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -383.18472
-      y: -320
-      width: 766.36945
-      height: 640
+      x: -376
+      y: -314
+      width: 752
+      height: 628
     m_MinimalGUI: 1
-  m_defaultScale: 0.98125
+  m_defaultScale: 1
   m_LastWindowPixelSize: {x: 752, y: 649}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
@@ -446,7 +446,7 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 3c3a0000
+      m_SelectedIDs: 
       m_LastClickedID: 0
       m_ExpandedIDs: 52fbffff
       m_RenameOverlay:
@@ -559,7 +559,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.6307272, y: -0.0021067895, z: 0.0017085804, w: 0.77598906}
     speed: 2
-    m_Value: {x: 0.6295678, y: -0.0021093679, z: 0.0017054329, w: 0.7769408}
+    m_Value: {x: -0.63072723, y: 0.0021067895, z: -0.0017085805, w: -0.7759891}
   m_Size:
     m_Target: 7.301987
     speed: 2
@@ -696,7 +696,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
