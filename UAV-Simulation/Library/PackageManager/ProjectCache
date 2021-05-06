@@ -5,21 +5,376 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637514245955806383
-    m_Hash: 4007186375
+      ticks: 637547807184525965
+    m_Hash: 4015882236
   m_LockFileStatus:
     m_FilePath: C:/Users/Alperen/Google Drive/Software/uav-simulation/UAV-Simulation/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637514246065191643
-    m_Hash: 38571225
+      ticks: 637547807222690624
+    m_Hash: 2304243932
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
   m_Packages:
     m_ResolvedPackages:
+    - packageId: com.unity.2d.sprite@1.0.0
+      testable: 0
+      isDirectDependency: 1
+      version: 1.0.0
+      source: 2
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.sprite
+      assetPath: Packages/com.unity.2d.sprite
+      name: com.unity.2d.sprite
+      displayName: 2D Sprite
+      author:
+        name: 
+        email: 
+        url: 
+      category: 2D
+      type: 
+      description: Use Unity Sprite Editor Window to create and edit Sprite asset
+        properties like pivot, borders and Physics shape
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.0
+        compatible:
+        - 1.0.0
+        verified: 1.0.0
+      dependencies: []
+      resolvedDependencies: []
+      keywords:
+      - 2d
+      - sprite
+      - sprite editor window
+      registry:
+        id: 
+        name: 
+        url: 
+        scopes: []
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 0
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 0
+      repository:
+        type: 
+        url: 
+        revision: 
+        path: 
+    - packageId: com.unity.2d.tilemap@1.0.0
+      testable: 0
+      isDirectDependency: 1
+      version: 1.0.0
+      source: 2
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.tilemap
+      assetPath: Packages/com.unity.2d.tilemap
+      name: com.unity.2d.tilemap
+      displayName: 2D Tilemap Editor
+      author:
+        name: 
+        email: 
+        url: 
+      category: 2D
+      type: 
+      description: 2D Tilemap Editor is a package that contains editor functionalities
+        for editing Tilemaps.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.0
+        compatible:
+        - 1.0.0
+        verified: 1.0.0
+      dependencies: []
+      resolvedDependencies: []
+      keywords:
+      - 2d
+      - Tilemap
+      registry:
+        id: 
+        name: 
+        url: 
+        scopes: []
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 0
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 0
+      repository:
+        type: 
+        url: 
+        revision: 
+        path: 
+    - packageId: com.unity.ads@3.6.1
+      testable: 0
+      isDirectDependency: 1
+      version: 3.6.1
+      source: 1
+      resolvedPath: C:\Users\Alperen\Google Drive\Software\uav-simulation\UAV-Simulation\Library\PackageCache\com.unity.ads@3.6.1
+      assetPath: Packages/com.unity.ads
+      name: com.unity.ads
+      displayName: Advertisement
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: Unity Ads is a video ad network for iOS and Android that allows
+        you to quickly and effectively monetize your games.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 0.0.3
+        - 0.0.4
+        - 0.0.5
+        - 0.0.6
+        - 0.0.7
+        - 0.0.8
+        - 0.0.10
+        - 0.0.11
+        - 0.0.12
+        - 0.0.13
+        - 0.0.14
+        - 0.0.15
+        - 0.0.16
+        - 2.0.0
+        - 2.0.3
+        - 2.0.4
+        - 2.0.7
+        - 2.0.8
+        - 2.3.1
+        - 2.3.2
+        - 3.0.1
+        - 3.0.2
+        - 3.0.3
+        - 3.1.1
+        - 3.2.0
+        - 3.3.0
+        - 3.3.1
+        - 3.4.0
+        - 3.4.1
+        - 3.4.2
+        - 3.4.4
+        - 3.4.5
+        - 3.4.7
+        - 3.4.9
+        - 3.5.0
+        - 3.5.2
+        - 3.6.1
+        compatible:
+        - 0.0.3
+        - 0.0.4
+        - 0.0.5
+        - 0.0.6
+        - 0.0.7
+        - 0.0.8
+        - 0.0.10
+        - 0.0.11
+        - 0.0.12
+        - 0.0.13
+        - 0.0.14
+        - 0.0.15
+        - 0.0.16
+        - 2.0.0
+        - 2.0.3
+        - 2.0.4
+        - 2.0.7
+        - 2.0.8
+        - 2.3.1
+        - 2.3.2
+        - 3.0.1
+        - 3.0.2
+        - 3.0.3
+        - 3.1.1
+        - 3.2.0
+        - 3.3.0
+        - 3.3.1
+        - 3.4.0
+        - 3.4.1
+        - 3.4.2
+        - 3.4.4
+        - 3.4.5
+        - 3.4.7
+        - 3.4.9
+        - 3.5.0
+        - 3.5.2
+        - 3.6.1
+        verified: 3.6.1
+      dependencies:
+      - name: com.unity.ugui
+        version: 1.0.0
+      resolvedDependencies:
+      - name: com.unity.ugui
+        version: 1.0.0
+      - name: com.unity.modules.ui
+        version: 1.0.0
+      - name: com.unity.modules.imgui
+        version: 1.0.0
+      keywords:
+      - ads
+      - unity
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637433982320000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/com.unity.ads.git
+        revision: aa1c5a9556a9bb62eef662153cfaa1075805106f
+        path: 
+    - packageId: com.unity.analytics@3.5.3
+      testable: 0
+      isDirectDependency: 1
+      version: 3.5.3
+      source: 1
+      resolvedPath: C:\Users\Alperen\Google Drive\Software\uav-simulation\UAV-Simulation\Library\PackageCache\com.unity.analytics@3.5.3
+      assetPath: Packages/com.unity.analytics
+      name: com.unity.analytics
+      displayName: Analytics Library
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: The Unity Analytics Library contains the Analytics Event Tracker
+        component, the Data Privacy plug-in, and the Standard Events API.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 0.0.3
+        - 0.0.4
+        - 0.0.5
+        - 0.0.7
+        - 0.0.8
+        - 0.0.9
+        - 0.0.10
+        - 0.0.11
+        - 0.0.12
+        - 0.0.13
+        - 0.0.14
+        - 0.0.15
+        - 0.0.16
+        - 0.0.17
+        - 0.0.19
+        - 2.0.5
+        - 2.0.11
+        - 2.0.13
+        - 2.0.14
+        - 2.0.15
+        - 2.0.16
+        - 3.0.5
+        - 3.0.9
+        - 3.1.1
+        - 3.2.0
+        - 3.2.2
+        - 3.2.3
+        - 3.3.0
+        - 3.3.2-preview
+        - 3.3.2
+        - 3.3.4
+        - 3.3.5
+        - 3.4.0
+        - 3.5.3
+        compatible:
+        - 0.0.3
+        - 0.0.4
+        - 0.0.5
+        - 0.0.7
+        - 0.0.8
+        - 0.0.9
+        - 0.0.10
+        - 0.0.11
+        - 0.0.12
+        - 0.0.13
+        - 0.0.14
+        - 0.0.15
+        - 0.0.16
+        - 0.0.17
+        - 0.0.19
+        - 2.0.5
+        - 2.0.11
+        - 2.0.13
+        - 2.0.14
+        - 2.0.15
+        - 2.0.16
+        - 3.0.5
+        - 3.0.9
+        - 3.1.1
+        - 3.2.0
+        - 3.2.2
+        - 3.2.3
+        - 3.3.0
+        - 3.3.2-preview
+        - 3.3.2
+        - 3.3.4
+        - 3.3.5
+        - 3.4.0
+        - 3.5.3
+        verified: 3.5.3
+      dependencies:
+      - name: com.unity.ugui
+        version: 1.0.0
+      resolvedDependencies:
+      - name: com.unity.ugui
+        version: 1.0.0
+      - name: com.unity.modules.ui
+        version: 1.0.0
+      - name: com.unity.modules.imgui
+        version: 1.0.0
+      keywords:
+      - analytics
+      - unity
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637381916200000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/com.unity.analytics.git
+        revision: 02d361e53eda59ceb7d02ba9bd15ff55a093ad83
+        path: 
     - packageId: com.unity.collab-proxy@1.3.9
       testable: 0
       isDirectDependency: 1
@@ -42,9 +397,45 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 1.2.3-preview
+        - 1.2.4-preview
+        - 1.2.6
+        - 1.2.7
+        - 1.2.9
+        - 1.2.11
+        - 1.2.15
+        - 1.2.16
+        - 1.2.17-preview.3
+        - 1.3.2
+        - 1.3.3
+        - 1.3.4
+        - 1.3.5
+        - 1.3.6
+        - 1.3.7
+        - 1.3.8
         - 1.3.9
+        - 2.0.0-preview.6
+        - 2.0.0-preview.8
+        - 2.0.0-preview.15
+        - 2.0.0-preview.17
+        - 2.0.0-preview.20
+        - 2.0.0-preview.21
+        - 2.0.0-preview.22
+        - 2.1.0-preview.3
+        - 2.1.0-preview.5
+        - 2.1.0-preview.6
         compatible:
         - 1.3.9
+        - 2.0.0-preview.6
+        - 2.0.0-preview.8
+        - 2.0.0-preview.15
+        - 2.0.0-preview.17
+        - 2.0.0-preview.20
+        - 2.0.0-preview.21
+        - 2.0.0-preview.22
+        - 2.1.0-preview.3
+        - 2.1.0-preview.5
+        - 2.1.0-preview.6
         verified: 1.3.9
       dependencies: []
       resolvedDependencies: []
@@ -71,7 +462,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637314349270000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -101,9 +492,53 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 1.0.2
+        - 1.0.6
+        - 1.0.8
+        - 1.1.0
+        - 1.1.1
+        - 1.1.2-preview
+        - 1.1.2-preview.2
+        - 1.1.3-preview.1
+        - 1.1.4-preview
+        - 1.1.4
+        - 1.2.0-preview
+        - 1.2.1
+        - 2.0.0-preview
+        - 2.0.1
+        - 2.0.2
+        - 2.0.3
+        - 2.0.5
         - 2.0.7
+        - 3.0.1
+        - 3.0.2
+        - 3.0.3
+        - 3.0.4
+        - 3.0.5
         compatible:
+        - 1.0.2
+        - 1.0.6
+        - 1.0.8
+        - 1.1.0
+        - 1.1.1
+        - 1.1.2-preview
+        - 1.1.2-preview.2
+        - 1.1.3-preview.1
+        - 1.1.4-preview
+        - 1.1.4
+        - 1.2.0-preview
+        - 1.2.1
+        - 2.0.0-preview
+        - 2.0.1
+        - 2.0.2
+        - 2.0.3
+        - 2.0.5
         - 2.0.7
+        - 3.0.1
+        - 3.0.2
+        - 3.0.3
+        - 3.0.4
+        - 3.0.5
         verified: 2.0.7
       dependencies:
       - name: com.unity.test-framework
@@ -130,7 +565,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637334461080000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -160,8 +595,30 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 1.0.2
+        - 1.0.3
+        - 1.0.4
+        - 1.0.9
+        - 1.0.10
+        - 1.0.11
+        - 2.0.0
+        - 2.0.1
+        - 2.0.2
+        - 2.0.3
+        - 2.0.5
         - 2.0.7
         compatible:
+        - 1.0.2
+        - 1.0.3
+        - 1.0.4
+        - 1.0.9
+        - 1.0.10
+        - 1.0.11
+        - 2.0.0
+        - 2.0.1
+        - 2.0.2
+        - 2.0.3
+        - 2.0.5
         - 2.0.7
         verified: 2.0.7
       dependencies:
@@ -189,7 +646,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637486638490000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -219,8 +676,28 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 1.0.2
+        - 1.0.3
+        - 1.0.7
+        - 1.1.0
+        - 1.1.2
+        - 1.1.3
+        - 1.1.4
+        - 1.2.0
+        - 1.2.1
+        - 1.2.2
         - 1.2.3
         compatible:
+        - 1.0.2
+        - 1.0.3
+        - 1.0.7
+        - 1.1.0
+        - 1.1.2
+        - 1.1.3
+        - 1.1.4
+        - 1.2.0
+        - 1.2.1
+        - 1.2.2
         - 1.2.3
         verified: 1.2.3
       dependencies: []
@@ -238,13 +715,162 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637394922300000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.vscode.git
-        revision: 547f63839bdc87e0aed2c9e0d84f8f6336a83ea3
+        revision: b5ec9b38109e52b1b26597d521e4df75e042ebb9
+        path: 
+    - packageId: com.unity.purchasing@2.2.2
+      testable: 0
+      isDirectDependency: 1
+      version: 2.2.2
+      source: 1
+      resolvedPath: C:\Users\Alperen\Google Drive\Software\uav-simulation\UAV-Simulation\Library\PackageCache\com.unity.purchasing@2.2.2
+      assetPath: Packages/com.unity.purchasing
+      name: com.unity.purchasing
+      displayName: In App Purchasing
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: 'Unity IAP supports the iOS, Mac, tvOS, Google Play, Facebook
+        Gameroom, Windows, Amazon, and Samsung Galaxy app stores. Additionally, it
+        can work in tandem with the Unity Distribution Portal in order to synchronize
+        catalogs and transactions with even more stores.
+
+
+        With Unity IAP,
+        setting up in-app purchases for your game across multiple app stores has
+        never been easier.
+
+
+        Use one common API to access all stores for
+        free. With just a few lines of code, you can fully understand and optimize
+        your in-game economy.
+
+
+        Unity IAP automatically couples with Unity
+        Analytics enabling you to monitor and act on trends in your revenue and purchase
+        data across multiple platforms.
+
+
+        Includes client-side receipt validation
+        for Apple App Store and Google Play.
+
+
+        After installing this package,
+        please make sure to open the Services Window and enable In-App Purchasing
+        to use its features. In the In-App Purchasing settings, please make sure
+        to import the Asset Store plugin if you have not already done so. This is
+        necessary to include all of the features.'
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 0.0.3
+        - 0.0.4
+        - 0.0.5
+        - 0.0.6
+        - 0.0.7
+        - 0.0.8
+        - 0.0.9
+        - 0.0.10
+        - 0.0.11
+        - 0.0.12
+        - 0.0.13
+        - 0.0.14
+        - 0.0.15
+        - 0.0.16
+        - 0.0.17
+        - 0.0.18
+        - 0.0.19
+        - 2.0.0
+        - 2.0.1
+        - 2.0.3
+        - 2.0.5
+        - 2.0.6
+        - 2.1.0
+        - 2.1.1
+        - 2.2.0
+        - 2.2.1
+        - 2.2.2
+        - 3.0.0-pre.3
+        - 3.0.0-pre.4
+        - 3.0.0-pre.5
+        - 3.0.0-pre.6
+        - 3.0.1
+        compatible:
+        - 0.0.3
+        - 0.0.4
+        - 0.0.5
+        - 0.0.6
+        - 0.0.7
+        - 0.0.8
+        - 0.0.9
+        - 0.0.10
+        - 0.0.11
+        - 0.0.12
+        - 0.0.13
+        - 0.0.14
+        - 0.0.15
+        - 0.0.16
+        - 0.0.17
+        - 0.0.18
+        - 0.0.19
+        - 2.0.0
+        - 2.0.1
+        - 2.0.3
+        - 2.0.5
+        - 2.0.6
+        - 2.1.0
+        - 2.1.1
+        - 2.2.0
+        - 2.2.1
+        - 2.2.2
+        - 3.0.0-pre.3
+        - 3.0.0-pre.4
+        - 3.0.0-pre.5
+        - 3.0.0-pre.6
+        - 3.0.1
+        verified: 2.2.2
+      dependencies:
+      - name: com.unity.ugui
+        version: 1.0.0
+      resolvedDependencies:
+      - name: com.unity.ugui
+        version: 1.0.0
+      - name: com.unity.modules.ui
+        version: 1.0.0
+      - name: com.unity.modules.imgui
+        version: 1.0.0
+      keywords:
+      - purchasing
+      - iap
+      - unity
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637469418440000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/com.unity.purchasing.git
+        revision: ee61dd3b9b07a5b3c6d54795306661ce1d0718ad
         path: 
     - packageId: com.unity.test-framework@1.1.22
       testable: 0
@@ -266,10 +892,38 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 0.0.4-preview
+        - 0.0.29-preview
+        - 1.0.0
+        - 1.0.7
+        - 1.0.9
+        - 1.0.11
+        - 1.0.12
+        - 1.0.13
+        - 1.0.14
+        - 1.0.16
+        - 1.0.17
+        - 1.0.18
+        - 1.1.0
+        - 1.1.1
+        - 1.1.2
+        - 1.1.3
+        - 1.1.5
+        - 1.1.8
+        - 1.1.9
+        - 1.1.11
+        - 1.1.13
+        - 1.1.14
+        - 1.1.16
+        - 1.1.18
+        - 1.1.19
+        - 1.1.20
         - 1.1.22
+        - 1.1.24
         compatible:
         - 1.1.22
-        verified: 1.1.22
+        - 1.1.24
+        verified: 1.1.24
       dependencies:
       - name: com.unity.ext.nunit
         version: 1.0.6
@@ -299,12 +953,12 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637469345300000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
-        url: https://github.com/Unity-Technologies/com.unity.test-framework.git
+        url: git+https://github.com/Unity-Technologies/com.unity.test-framework.git
         revision: 56c667cbc326a1cbab8dfd7ebc693a1121d0abe1
         path: 
     - packageId: com.unity.textmeshpro@3.0.1
@@ -347,10 +1001,81 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 0.1.2
+        - 1.0.21
+        - 1.0.23
+        - 1.0.25
+        - 1.0.26
+        - 1.1.0
+        - 1.2.0
+        - 1.2.1
+        - 1.2.2
+        - 1.2.3
+        - 1.2.4
+        - 1.3.0-preview
+        - 1.3.0
+        - 1.4.0-preview.1b
+        - 1.4.0-preview.2a
+        - 1.4.0-preview.3a
+        - 1.4.0
+        - 1.4.1-preview.1
+        - 1.4.1
+        - 1.5.0-preview.1
+        - 1.5.0-preview.2
+        - 1.5.0-preview.3
+        - 1.5.0-preview.4
+        - 1.5.0-preview.5
+        - 1.5.0-preview.6
+        - 1.5.0-preview.7
+        - 1.5.0-preview.8
+        - 1.5.0-preview.10
+        - 1.5.0-preview.11
+        - 1.5.0-preview.12
+        - 1.5.0-preview.13
+        - 1.5.0-preview.14
+        - 1.5.0
+        - 1.5.1
+        - 1.5.3
+        - 1.5.4
+        - 2.0.0
+        - 2.0.1-preview.1
+        - 2.0.1
+        - 2.1.0-preview.1
+        - 2.1.0-preview.2
+        - 2.1.0-preview.3
+        - 2.1.0-preview.4
+        - 2.1.0-preview.5
+        - 2.1.0-preview.7
+        - 2.1.0-preview.8
+        - 2.1.0-preview.10
+        - 2.1.0-preview.11
+        - 2.1.0-preview.12
+        - 2.1.0-preview.13
+        - 2.1.0-preview.14
+        - 2.1.0
+        - 2.1.1
+        - 2.1.3
+        - 2.1.4
+        - 3.0.0-preview.1
+        - 3.0.0-preview.3
+        - 3.0.0-preview.4
+        - 3.0.0-preview.5
+        - 3.0.0-preview.7
+        - 3.0.0-preview.8
+        - 3.0.0-preview.10
+        - 3.0.0-preview.11
+        - 3.0.0-preview.12
+        - 3.0.0-preview.13
+        - 3.0.0-preview.14
+        - 3.0.0
         - 3.0.1
+        - 3.0.3
+        - 3.0.4
         compatible:
         - 3.0.1
-        verified: 3.0.1
+        - 3.0.3
+        - 3.0.4
+        verified: 3.0.4
       dependencies:
       - name: com.unity.ugui
         version: 1.0.0
@@ -379,7 +1104,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637314376320000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -408,9 +1133,78 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 1.2.0
+        - 1.2.1
+        - 1.2.2
+        - 1.2.3
+        - 1.2.4
+        - 1.2.5
+        - 1.2.6
+        - 1.2.7
+        - 1.2.9
+        - 1.2.10
+        - 1.2.11
+        - 1.2.12
+        - 1.2.13
+        - 1.2.14
+        - 1.2.15
+        - 1.2.16
+        - 1.2.17
+        - 1.2.18
+        - 1.3.0-preview.2
+        - 1.3.0-preview.3
+        - 1.3.0-preview.5
+        - 1.3.0-preview.6
+        - 1.3.0-preview.7
+        - 1.3.0
+        - 1.3.1
+        - 1.3.2
+        - 1.3.3
+        - 1.3.4
+        - 1.3.5
+        - 1.3.6
+        - 1.3.7
+        - 1.4.0-preview.1
+        - 1.4.0-preview.2
+        - 1.4.0-preview.3
+        - 1.4.0-preview.5
+        - 1.4.0-preview.6
+        - 1.4.0-preview.7
+        - 1.4.0
+        - 1.4.1
+        - 1.4.2
+        - 1.4.3
+        - 1.4.4
+        - 1.4.5
         - 1.4.6
+        - 1.5.0-pre.2
+        - 1.5.0-preview.1
+        - 1.5.0-preview.2
+        - 1.5.0-preview.3
+        - 1.5.0-preview.4
+        - 1.5.0-preview.5
+        - 1.5.1-pre.1
+        - 1.5.1-pre.2
+        - 1.5.1-pre.3
+        - 1.5.2
+        - 1.5.4
+        - 1.6.0-pre.1
+        - 1.6.0-pre.3
         compatible:
         - 1.4.6
+        - 1.5.0-pre.2
+        - 1.5.0-preview.1
+        - 1.5.0-preview.2
+        - 1.5.0-preview.3
+        - 1.5.0-preview.4
+        - 1.5.0-preview.5
+        - 1.5.1-pre.1
+        - 1.5.1-pre.2
+        - 1.5.1-pre.3
+        - 1.5.2
+        - 1.5.4
+        - 1.6.0-pre.1
+        - 1.6.0-pre.3
         verified: 1.4.6
       dependencies:
       - name: com.unity.modules.director
@@ -448,7 +1242,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637463150940000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -518,6 +1312,77 @@ m_PackageAssets:
         type: 
         url: 
         revision: 
+        path: 
+    - packageId: com.unity.xr.legacyinputhelpers@2.1.7
+      testable: 0
+      isDirectDependency: 1
+      version: 2.1.7
+      source: 1
+      resolvedPath: C:\Users\Alperen\Google Drive\Software\uav-simulation\UAV-Simulation\Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.7
+      assetPath: Packages/com.unity.xr.legacyinputhelpers
+      name: com.unity.xr.legacyinputhelpers
+      displayName: XR Legacy Input Helpers
+      author:
+        name: 
+        email: 
+        url: 
+      category: XR
+      type: 
+      description: This package includes the tracked pose driver for the legacy input
+        system, the XR Bindings Seeding Tool and 3Dof Arm Model support for the Tracked
+        Pose Driver. The Tracked Pose Driver is a behavior that enables GameObjects
+        to track input devices, the XR Bindings Seeding Tool adds a menu item under
+        the 'Assets' menu which populates the Input Asset with Unity's crossplatform
+        Input Bindings
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 2.1.7
+        compatible:
+        - 2.1.7
+        verified: 2.1.7
+      dependencies:
+      - name: com.unity.modules.vr
+        version: 1.0.0
+      - name: com.unity.modules.xr
+        version: 1.0.0
+      resolvedDependencies:
+      - name: com.unity.modules.vr
+        version: 1.0.0
+      - name: com.unity.modules.jsonserialize
+        version: 1.0.0
+      - name: com.unity.modules.physics
+        version: 1.0.0
+      - name: com.unity.modules.xr
+        version: 1.0.0
+      - name: com.unity.modules.subsystems
+        version: 1.0.0
+      keywords:
+      - TPD
+      - Tracked Pose Driver
+      - XR
+      - Input
+      - Helpers
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/com.unity.xr.legacyinputhelpers.git
+        revision: b2024928b8140a10ad43aeb5824d2f08bb8796bc
         path: 
     - packageId: com.unity.modules.ai@1.0.0
       testable: 0
