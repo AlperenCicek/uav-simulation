@@ -168,19 +168,23 @@ while True:
           category_index,
           use_normalized_coordinates=True,
           max_boxes_to_draw=500,
-          min_score_thresh=.50,
+          min_score_thresh=.30,
           agnostic_mode=False)
 
 
     if classOfVehicles == []:
         print(".....")
     else:
-        print("---CLASS & COORDINATES OF FRAME---")
-        for i in range(0, len(classOfVehicles)):
-            print(classOfVehicles[i], " : ", conversionOfCoordinates(coordinates[i], x_scale, y_scale))
-            if classOfVehicles[i] == vehicleChoice:
-                controllingUAV(conversionOfCoordinates(coordinates[i], x_scale, y_scale), x_scale, y_scale, keyboard)
+        try:
+            print("---CLASS & COORDINATES OF FRAME---")
+            for i in range(0, len(classOfVehicles)):
+                print(classOfVehicles[i], " : ", conversionOfCoordinates(coordinates[i], x_scale, y_scale))
+                if classOfVehicles[i] == vehicleChoice:
+                    controllingUAV(conversionOfCoordinates(coordinates[i], x_scale, y_scale), x_scale, y_scale, keyboard)
+        except:
+            print(".....")
 
+    
 
 
     cv2.imshow('Detection and Tracking System From UAV', image_np_with_detections)
